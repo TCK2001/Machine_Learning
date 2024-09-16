@@ -38,7 +38,7 @@ X = df.iloc[0:100, [0, 2]].values
 [Visualization_boundary.py](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/visualization_boundary_readme.md)
 * Code   
 [model](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/model.py)   
-[visual : point](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/visualization_point_readme.md)   
+[visual : point](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/Visualization_Point.py)   
 [visual : training error](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/Visualization_training_error.py)   
 [visual : boundary](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/Visualization_boundary.py)   
 
