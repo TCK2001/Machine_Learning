@@ -31,8 +31,15 @@ X = df.iloc[0:100, [0, 2]].values
 + Index 2 : Petal.Length <----- selected
 + Index 3 : Petal.Width
 
-## Model Readme
-[model.py](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/model_readme.md)
-[Visualization_Point.py](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/visualization_point_readme.md)
+## Model Readme & Code
+* Readme
+[model.py](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/model_readme.md)   
+[Visualization_Point.py](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/visualization_point_readme.md)   
 [Visualization_boundary.py](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/visualization_boundary_readme.md)
+
+* Code
+* [model](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/model.py)
+* [visual : point](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/visualization_point_readme.md)
+* [visual : training error](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/Visualization_training_error.py)
+* [visual : boundary](https://github.com/TCK2001/Machine_Learning/blob/main/Perceptron/Visualization_boundary.py)
 
