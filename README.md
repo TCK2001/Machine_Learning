@@ -1,10 +1,11 @@
 # Machine_Learning
 
 ## Lecture
-+ 🔥(2024/09/15 ~ 16) [Perceptron](https://github.com/TCK2001/Machine_Learning/tree/main/Perceptron)
-  + `Perceptron model` ✅
-  + `Visualization` ✅
-+ 🔥(2024/09/16 ~ ) [Adaline]
-  + `Adaline model`
++ 🔥[Perceptron](https://github.com/TCK2001/Machine_Learning/tree/main/Perceptron)
+  + `Perceptron model` 2024/09/15✅
+  + `Visualization` 2024/09/16✅
++ 🔥[Logistic Regression]
+  + `Logistic Regression (Theory)` 2024/09/23✅
+  + `Cross entropy`
   + `Gradient descent`
 
