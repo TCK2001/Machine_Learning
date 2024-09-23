@@ -7,7 +7,6 @@ Sigmoid를 사용하여 확률 값이 0 ~ 1이고 일정 threshold가 넘으면 
 
 $$\sigma(z) = \frac{1}{1 + e^{-z}}$$
 
-  
 이건 로지스틱 함수 또는 시그모이드라고 칭한다.   
 
 이제 이 함수가 어떻게 나왔는지 알아보자 (Logit Function, Odds)를 먼저 알아야함.   
