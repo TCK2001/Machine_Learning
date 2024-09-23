@@ -25,8 +25,9 @@ $$
 반대로 logistic regression에서는 x는 -inf ~ inf범위를 가지지만 y값은 확률인 0 ~ 1이기에 이를 -inf ~ inf값으로 변경해줘야한다.
 
 
-$$y = ax + b$$
-*여기서 output y를 확률 p로 바꿔준다. 하지만 y는 확률이기에 성립하지 않는다.   
+$$y = ax + b$$   
+
+여기서 output y를 확률 p로 바꿔준다. 하지만 y는 확률이기에 성립하지 않는다.   
 
 $$
 \text{Odds} = \frac{P}{1 - P} = ax + b
