@@ -6,7 +6,7 @@ $$
 H(x) = -\sum_{i=1}^{n} p(x_i) \log p(x_i)
 $$
 
-### Let's look at a simple example: rolling a die vs. flipping a coin.   
+## Let's look at a simple example: rolling a die vs. flipping a coin.   
 Try to predict the probability of getting heads or tails when flipping a coin!   
 
 $$ 
@@ -17,8 +17,10 @@ The result of the calculation is approximately 0.693. Here, the $log$ refers to 
 
 ---
 
-Now, let's calculate the probability for each of the 6 sides of a die when rolled!
-$$ H(x) = - \left( \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} \right)
+Now, let's calculate the probability for each of the 6 sides of a die when rolled!   
+
+$$ 
+H(x) = - \left( \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} \right)
 $$
 
 The result of the calculation is approximately 1.79.
@@ -43,19 +45,22 @@ However, User `A's` intuition suggests the ratio might be `0.2/0.2/0.6`,
 while User `B's` intuition suggests the ratio might be `0.7/0.1/0.2`.   
 The cross-entropy results for these predictions are as follows:
 
-$Entropy :$
+$Entropy :$   
+
 $$
 H(q) = -[0.8 \log(0.8) + 0.1 \log(0.1) + 0.1 \log(0.1)] = 0.63
 $$
 
 ## A user
-$Cross-entropy :$
+$Cross-entropy :$   
+
 $$
 H_p(q) = -[0.8 \log(0.2) + 0.1 \log(0.2) + 0.1 \log(0.6)] = 1.50
 $$
 
 ## B user
-$Cross-entropy :$
+$Cross-entropy :$   
+
 $$
 H_p(q) = -[0.8 \log(0.7) + 0.1 \log(0.1) + 0.1 \log(0.2)] = 0.68
 $$
@@ -73,5 +78,9 @@ $$
 Here, $q(x)$ is always fixed, and $q(x)$ is always greater than or equal to $p(x)$. This is because our main objective is to make the distribution $p(x)$ as close as possible to $q(x)$. In other words, the closer the distribution $p(x)$ is to $q(x)$, the closer the KL-divergence value will be to 0.
 
 
+
+
+
+---
 ### Reference
 [Entropy, Cross-entropy. KL-divergence](https://velog.io/@rcchun/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%81%AC%EB%A1%9C%EC%8A%A4-%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BCcross-entropy)
