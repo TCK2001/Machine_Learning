@@ -8,7 +8,8 @@ H(x) = -\sum_{i=1}^{n} p(x_i) \log p(x_i)
 $$
 
 ## 간단한 예시 (주사위 던지기 vs 동전 던지기)
-동전을 던졌을때 앞/뒷면이 나올 확률을 예측해보자 !  
+동전을 던졌을때 앞/뒷면이 나올 확률을 예측해보자 !
+
 $$ 
 H(x) = - \left( \frac{1}{2} \log \frac{1}{2} + \frac{1}{2} \log \frac{1}{2} \right)
 $$
@@ -18,7 +19,9 @@ $$
 ---
 
 그러면 주사위를 던져 각 6면의 확률을 계산해보자 !  
-$$ H(x) = - \left( \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} \right)
+
+$$ 
+H(x) = - \left( \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} + \frac{1}{6} \log \frac{1}{6} \right)
 $$
  
 계산 결과 대략 1.79가 나온다.   
@@ -43,18 +46,21 @@ $$
 이때 cross-entropy 결과값은 이하와 같다.
 
 $Entropy :$
+
 $$
 H(q) = -[0.8 \log(0.8) + 0.1 \log(0.1) + 0.1 \log(0.1)] = 0.63
 $$
 
 ## A 유저
 $Cross-entropy :$
+
 $$
 H_p(q) = -[0.8 \log(0.2) + 0.1 \log(0.2) + 0.1 \log(0.6)] = 1.50
 $$
 
 ## B 유저
 $Cross-entropy :$
+
 $$
 H_p(q) = -[0.8 \log(0.7) + 0.1 \log(0.1) + 0.1 \log(0.2)] = 0.68
 $$
@@ -73,5 +79,7 @@ $$
 여기서 $q(x)$ 는 항상 고정이고 $q(x)$ 는 $p(x)$보다 항상 크다. 왜냐하면 우리는 $p(x)$ 해당 분포를 $q(x)$와 같게 해야하는게 주 목적이다. 다시말해 $q(x)$ 분포와 $p(x)$ 가 비슷하면 비슷할 수록 $KL-divergence$ 는 0에 가까워지게 된다.
 
 
+
+---
 ### Reference
 [Entropy, Cross-entropy. KL-divergence](https://velog.io/@rcchun/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%ED%81%AC%EB%A1%9C%EC%8A%A4-%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BCcross-entropy)
