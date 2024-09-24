@@ -100,5 +100,3 @@ $$
 # Sigmoid
 <img src="images/sigmoid.png" alt="Sigmoid" width="500"/>
 
-
-[Link](https://pinkwink.kr/1383) cross entropy + code
