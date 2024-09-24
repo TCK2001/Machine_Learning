@@ -6,8 +6,9 @@ $$
 H(x) = -\sum_{i=1}^{n} p(x_i) \log p(x_i)
 $$
 
-## Let's look at a simple example: rolling a die vs. flipping a coin.
-Try to predict the probability of getting heads or tails when flipping a coin!
+### Let's look at a simple example: rolling a die vs. flipping a coin.   
+Try to predict the probability of getting heads or tails when flipping a coin!   
+
 $$ 
 H(x) = - \left( \frac{1}{2} \log \frac{1}{2} + \frac{1}{2} \log \frac{1}{2} \right)
 $$
