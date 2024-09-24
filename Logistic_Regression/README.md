@@ -104,4 +104,9 @@ If we multiply both sides by $e^{x}$, we will get the same value.
 # Sigmoid
 <img src="images/sigmoid.png" alt="Sigmoid" width="500"/>
 
+---
+
+## README
++ [Entropy, Cross entropy, KL divergence](https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/entropy_all.md)
+
 
