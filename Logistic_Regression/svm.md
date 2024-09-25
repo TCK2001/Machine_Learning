@@ -41,7 +41,7 @@ def get_hyperplane_value(x, w, b, offset):
 ---
 
 # Code
-## Direct implementation (https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/svm.py) 
+## [Direct implementation](https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/svm.py) 
 ## Sklearn library ()
 ### ⭐Parameters
 | Parameter | Default | Description |
