@@ -8,4 +8,5 @@
   + `Logistic Regression (Theory)` 2024/09/23✅
   + `Logistic Regression Code + Cross entropy + Gradient descent` 2024/09/24✅
   + `Entropy, Cross entropy, KL divergence` 2024/09/24✅
+  + `SVM (Support Vector Machine)` 2024/09/25✅
 
