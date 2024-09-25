@@ -1,7 +1,7 @@
 # SVM
 SVM (Support Vector Machine) is primarily aimed at finding a decision boundary that is as far away as possible from two classes, and it uses this boundary to classify the data.
 
-<img src = "/images/svm.png" width = 350></img>
+<img src = "./images/svm.png" width = 350></img>
 
 Basically, SVM uses the term *margin*, which refers to the boundary that separates two datasets. In other words, the main goal of SVM is to find the maximum margin that perfectly classifies the two classes.
 
@@ -41,7 +41,7 @@ def get_hyperplane_value(x, w, b, offset):
 ---
 
 # Code
-## Direct implementation () 
+## Direct implementation (https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/svm.py) 
 ## Sklearn library ()
 ### ⭐Parameters
 | Parameter | Default | Description |
