@@ -108,8 +108,9 @@ If we multiply both sides by $e^{x}$, we will get the same value.
 
 ## README
 + [Entropy, Cross entropy, KL divergence](https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/entropy_all.md)
++ [SVM](https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/svm.md)
 
 ## Code
 + [Logistic Regression + Cross entropy + Gradient descent](https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/cross_entropy_code.py)
-
++ [SVM](https://github.com/TCK2001/Machine_Learning/blob/main/Logistic_Regression/svm.md#code)
 
